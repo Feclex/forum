@@ -4,8 +4,8 @@ Colours and backgrounds for common.css
 -------------------------------------------------------------- */
 
 html, body {
-	color: #536482;
-	background-color: #F5F7FA;
+	color: #e8b315;
+	background-color: #f2eeee;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h2 {
 
 h3 {
 	border-bottom-color: #CCCCCC;
-	color: #115098;
+	color: #4e4505;
 }
 
 hr {
@@ -31,8 +31,8 @@ hr {
 Colours and backgrounds for links.css
 -------------------------------------------------------------- */
 
-a { color: #105289; }
-a:hover { color: #D31141; }
+a { color: #e8b315; }
+a:hover { color: #f5b100; }
 
 /* Links on gradient backgrounds */
 .forumbg .header a, .forabg .header a, th a {
@@ -91,25 +91,30 @@ a:hover { color: #D31141; }
 
 .headerbar, .forumbg {
 	background-color: #12A3EB;
-	background-image: -webkit-linear-gradient(top, #6ACEFF 0%, #0076B1 2px, #12A3EB 92px, #12A3EB 100%);
-	background-image: linear-gradient(to bottom, #FFF 0%,#F6F9FB 2px,#DCE5EA 92px,#FFF28C 100%);
-	background-repeat: repeat-x;
+	background-image: -webkit-linear-gradient(top, #f7fafc 0%, #ffffff 2px, #ffffff 92px, #ffffff 100%);
+	/*background-image: linear-gradient(to bottom, #FFF 0%,#F6F9FB 2px,#DCE5EA 92px,#FFF28C 100%);*/
+    /*background-image: url("images/banniere.jpg");*/
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+    /*background-repeat: repeat-x;
+	*/
 }
 
 .forabg {
-	background-color: #0076B1;
-	background-image: -webkit-linear-gradient(top, #6ACEFF 0%, #12A3EB 2px, #0076B1 92px, #0076B1 100%);
-	background-image: linear-gradient(to bottom, #6ACEFF 0%,#12A3EB 2px,#0076B1 92px,#0076B1 100%);
+	background-color: #e8b315;
+	background-image: -webkit-linear-gradient(top, #fff06a 0%, #fff10e 2px, #f5edd8 92px, #ffffff 100%);
+	background-image: linear-gradient(to bottom, #fff700 0%, #fcdf24 2px, #f3ef41 92px, #fffefa 100%);
 	background-repeat: repeat-x;
 }
 
 .navbar {
-	background-color: #CADCEB;
+	background-color: #ffffff;
 }
 
 .panel {
-	background-color: #ECF1F3;
-	color: #28313F;
+	background-color: #fff9ce;
+	color: #ffc70f;
 }
 
 .post:target .content {
@@ -121,7 +126,7 @@ a:hover { color: #D31141; }
 }
 
 .bg1 {
-	background-color: #ECF3F7;
+	background-color: #ffffff;
 }
 
 table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
@@ -129,7 +134,7 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 }
 
 .bg2 {
-	background-color: #E1EBF2;
+	background-color: #ffffff;
 }
 
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
@@ -137,7 +142,7 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 }
 
 .bg3	{
-	background-color: #CADCEB;
+	background-color: #ffffff;
 }
 
 .ucprowbg {
@@ -319,9 +324,9 @@ Colours and backgrounds for content.css
 -------------------------------------------------------------- */
 
 ul.forums {
-	background-color: #EEF5F9; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #D2E0EB 0%, #EEF5F9 100%);
-	background-image: linear-gradient(to bottom, #D2E0EB 0%,#EEF5F9 100%); /* W3C */
+	background-color: #ffffff; /* Old browsers */ /* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D2E0EB', endColorstr='#EEF5F9',GradientType=0 ); /* IE6-9 */
 }
 
@@ -340,7 +345,7 @@ ul.topiclist dd {
 
 li.row {
 	border-top-color:  #FFFFFF;
-	border-bottom-color: #00608F;
+	border-bottom-color: #ffe634;
 }
 
 li.row strong {
@@ -352,7 +357,7 @@ li.row:hover {
 }
 
 li.row:hover dd {
-	border-left-color: #CCCCCC;
+	border-left-color: #cccccc;
 }
 
 .rtl li.row:hover dd {
@@ -377,7 +382,7 @@ li.header dt, li.header dd {
 }
 
 .content h2, .panel h2 {
-	color: #115098;
+	color: #fff646;
 	border-bottom-color:  #CCCCCC;
 }
 
@@ -483,7 +488,7 @@ dl.thumbnail dt a:hover {
 }
 
 dl.thumbnail dt a:hover img {
-	border-color: #368AD2;
+	border-color: #368ad2;
 }
 
 /* Post poll styles
@@ -591,7 +596,7 @@ Colours and backgrounds for buttons.css
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#E9E9E9',GradientType=0 ); /* IE6-9 */
 	box-shadow: 0 0 0 1px #FFFFFF inset;
 	-webkit-box-shadow: 0 0 0 1px #FFFFFF inset;
-	color: #D31141;
+	color: #e5d103;
 }
 
 .button:hover,
@@ -619,7 +624,7 @@ Colours and backgrounds for buttons.css
 
 .button-search:hover,
 .button-search-end:hover {
-	border-color: #C7C3BF;
+	border-color: #c7c3bf;
 }
 
 .caret	{ border-color: #DADADA; }
@@ -669,7 +674,7 @@ Colours and backgrounds for buttons.css
 }
 
 .search-header {
-	box-shadow: 0 0 10px #0075B0;
+	box-shadow: 0 0 10px #e0e518;
 }
 
 .search-results li:hover,
@@ -759,16 +764,16 @@ Colours and backgrounds for cp.css
 ----------------------------------------*/
 
 .panel-container h3, .panel-container hr, .cp-menu hr {
-	border-color: #A4B3BF;
+	border-color: #fafafa;
 }
 
 .panel-container .panel li.row {
-	border-bottom-color: #B5C1CB;
+	border-bottom-color: #ffffff;
 	border-top-color: #F9F9F9;
 }
 
 ul.cplist {
-	border-top-color: #B5C1CB;
+	border-top-color: #ffffff;
 }
 
 .panel-container .panel li.header dd, .panel-container .panel li.header dt {
@@ -788,22 +793,22 @@ ul.cplist {
 /* CP tabbed menu
 ----------------------------------------*/
 .tabs .tab > a {
-	background: #BACCD9;
-	color: #536482;
+	background: #ffffff;
+	color: #000000;
 }
 
 .tabs .tab > a:hover {
-	background: #DDEDFB;
-	color: #D31141;
+	background: #dedede;
+	color: #000000;
 }
 
 .tabs .activetab > a,
 .tabs .activetab > a:hover {
-	background-color: #CADCEB; /* Old browsers */ /* FF3.6+ */
-	background-image: -webkit-linear-gradient(top, #E2F2FF 0%, #CADCEB 100%);
-	background-image: linear-gradient(to bottom, #E2F2FF 0%,#CADCEB 100%); /* W3C */
+	background-color: #ffffff; /* Old browsers */ /* FF3.6+ */
+	background-image: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+	background-image: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E2F2FF', endColorstr='#CADCEB',GradientType=0 ); /* IE6-9 */
-	border-color: #CADCEB;
+	border-color: #ffffff;
 	box-shadow: 0 1px 1px #F2F9FF inset;
 	color: #333333;
 }
